@@ -31,13 +31,26 @@ body {
 
 .content {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  font-weight: 800;
-  font-size: 48px;
+}
+
+.countdown-border {
+  width: 450px;
+  height: 300px;
+  background-color: #69AEFF;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.countdown-number {
   color: white;
-  text-shadow: 0px 2px 11px rgba(0, 0, 0, 0.25);  
-  height: 60%;
+  font-size: 156px;
+  font-weight: 800;
 }
 
 .input-form {

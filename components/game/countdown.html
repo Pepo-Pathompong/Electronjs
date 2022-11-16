@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <title>Document</title> -->
+  <link rel="stylesheet" href="countdown.css" />
+</head>
+
+<body>
+  <header class="container">
+    <div class="back-icon">
+      <img src="https://cdn.discordapp.com/attachments/809327225672826880/1042515338635513856/Group_20.png" alt=""
+        style="width: 90px;">
+    </div>
+    <div class="content">
+      <div class="countdown-border">
+        <img src="https://cdn.discordapp.com/attachments/809327225672826880/1042550736577372280/Are_you_ready....png"
+          alt="" style="width: 350px;">
+        <div id="number" class="countdown-number"></div>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    console.log("script");
+    var counter = 3;
+    document.getElementById("number").innerHTML = counter;
+    var x = setInterval(function () {
+      if (counter != 0) {
+        counter = counter - 1
+      }
+      document.getElementById("number").innerHTML = counter;
+    }, 1000);
+  </script>
+</body>
+
+</html>
