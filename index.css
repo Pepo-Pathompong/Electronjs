@@ -176,27 +176,31 @@ body.welcome {
 position: absolute;
 width: 67.12px;
 height: 67.94px;
-left: 59px;
-top: 502px;
+left: 40%;
+top: 65%;
+transform: translate(-50%, -50%);
 }
 .play-botton{
 position: absolute;
 width: 211px;
 height: 73px;
-left: 142px;
-top: 502px;
+left: 55%;
+top: 65%;
+transform: translate(-50%, -50%);
 }
 .sitting-botton{
 position: absolute;
 width: 68.12px;
 height: 67.88px;
-left: 58px;
-top: 590px;
+left: 40%;
+top: 75%;
+transform: translate(-50%, -50%);
 }
 .Howto-botton{
 position: absolute;
 width: 211px;
 height: 73px;
-left: 142px;
-top: 587px;
+left: 55%;
+top: 75%;
+transform: translate(-50%, -50%);
 }
