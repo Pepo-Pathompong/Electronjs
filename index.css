@@ -172,35 +172,35 @@ body.welcome {
   }
 }
 
-.start-botton{
+/* .start-botton{
 position: absolute;
 width: 67.12px;
 height: 67.94px;
 left: 40%;
 top: 65%;
 transform: translate(-50%, -50%);
-}
+} */
 .play-botton{
 position: absolute;
 width: 211px;
 height: 73px;
-left: 55%;
+left: 50%;
 top: 65%;
 transform: translate(-50%, -50%);
 }
-.sitting-botton{
+/* .sitting-botton{
 position: absolute;
 width: 68.12px;
 height: 67.88px;
 left: 40%;
 top: 75%;
 transform: translate(-50%, -50%);
-}
+} */
 .Howto-botton{
 position: absolute;
 width: 211px;
 height: 73px;
-left: 55%;
+left: 50%;
 top: 75%;
 transform: translate(-50%, -50%);
 }

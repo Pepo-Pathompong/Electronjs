@@ -57,3 +57,9 @@ input {
   color: #2E527C;
   font-weight: 800;
 }
+.sitting-botton{
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  /* transform: translate(-50%, -50%); */
+}
